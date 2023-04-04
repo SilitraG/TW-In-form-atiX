@@ -9,20 +9,38 @@
         <section class="header">
             <nav>
                <a href="index.html"></a>
-               <div class="nav-links">
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">lOGIN</a></li>
-                    <li><a href="">REGISTER</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">HELP</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="help.html">HELP</a></li>
 
                 </ul>
                </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
 
-        </section>
+    <div class="text-box">
+        <h1>Informatix</h1>
+        <p>Site-ul tau de probleme</p>
+        <a href ="about.html" class="click">Click pentru mai multe detalii</a>
+    </div>        
 
+
+        </section>
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+
+            }
+            function hideMenu(){
+                nacLinks.style.right="-200px";
+            }
+        </script>
 
 
 

@@ -19,8 +19,9 @@ section{
     align-items: center;
 }
 section.side{
-    background: url(c.jpg) no repeat;
+    background-image: url(c.jpg) ;
     background-size: 100% 105%;
+    opacity: 0.6;
 }
 .side img{
     width: 100%;
@@ -74,8 +75,8 @@ section.side{
     }
     input{
         width: 100%;
-        background: rgb(199, 232, 239);
-        color: darkslategray;
+        background: rgb(210, 212, 247);
+        color: rgb(187, 253, 253);
         letter-spacing: 0.5px;
         padding: 14px 64px;
     }
@@ -95,6 +96,19 @@ section.side{
         button.submit:hover{
             opacity: 0.5;
         }
+        .form-text{
+            margin-top: 5%;
+            text-align: left;
+        }
+        .form-link{
+            color:rgb(121, 127, 243);
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .form-link:hover{
+            text-decoration: underline;
+        }
+        
         @media (max-width: 780px)
         {    body{
             display:flex;

@@ -26,6 +26,7 @@ section.side{
 .side img{
     width: 100%;
     max-width: 100%;
+    opacity: 0.5;
 }
 .login-container{
     max-width: 450px;

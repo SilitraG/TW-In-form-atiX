@@ -4,19 +4,25 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
     outline: none;
+    
+    
 }
 body{
     display: flex;
     min-height: 100vh;
     align-items: center;
+    
+    
 }
+
 .container form{
     width: 100%;
     text-align: center;
     padding: 25px 20px;
 }
+
 .separator{
-    width: 350px;
+    width: 1000px;
     height: 4px;
     background-color: blueviolet;
     margin: 24px;

@@ -10,7 +10,7 @@ body{
     height: 100vh;
     justify-content: right;
     align-items: right;
-    background-image: url(d.png);
+    background-image: url(images/d.png);
     background-size: 50% 100%;
     background-repeat: no-repeat;
    
@@ -64,7 +64,7 @@ body{
     font-size: 20px;
     font-weight: 400;
     margin: 5px 0;
-    border-radius: 30px;
+     border-radius: 30px;
 }
 .user-input-box input{
     height: 40px;

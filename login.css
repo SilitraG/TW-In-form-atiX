@@ -19,7 +19,7 @@ section{
     align-items: center;
 }
 section.side{
-    background-image: url(c.jpg) ;
+    background-image: url(images/c.jpg) ;
     background-size: 100% 105%;
     opacity: 0.6;
 }

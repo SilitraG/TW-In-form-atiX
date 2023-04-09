@@ -123,6 +123,7 @@ button.submit {
 .form-submit-btn:hover{
     opacity: 0.5;
 }
+
 @media(max-wiidth: 600px){
     .container{
         min-width: 280px;

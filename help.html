@@ -7,11 +7,29 @@
 
     </head>
         <body>
+            <section class="side">
+                <img src="e.jpg" alt="">
+            </section>
             <section class="header">
+                 <nav>
+               <a href="index.html"></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="help.html">HELP</a></li>
+
+                </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
                 <main>
                     <div class="text-box">
                   <h1>Cele mai frecvente intrebari:</h1>
-                  <h2>Intrebare</h2>
+                  <h1>Intrebare</h1>
                   <p>Raspuns: Chrome, Firefox, and Edge are the most used browsers today.</p>
                   <h1>Intrebare</h1>
                     <p>Raspuns:Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
@@ -20,25 +38,44 @@
                     <h2>Mai jos veti gasi un formular de feedback pentru a impartasi experienta pe site-ul nostru</h2>
                 </main>
                 </div>
+
+        <div class="view">
+
         <div class="container">
-            <img src="e.jpg" alt="">
-            <form>
-                <h1>Spune-ne parerea ta</h1>
-                <div class="separator"></div>
-                <div class="id">
-                    <input type="'text" placeholder="Full name">
-                <i class="far fa-user"></i>
-             </div>
-             <div class="id">
-                <input type="'email" placeholder="Email adress">
-            <i class="far fa-envelope"></i>
-         </div>
-         <textarea cols="15" rows="5" placeholder="Enter your opinions here"></textarea>
-            <button>Send</button>
-        </form>
-        </div>
+            <div class="row">
+                <div class="col2"></div>
+                <div class="col3">
+                    <h4 class="text-center">Spune-ne parerea ta!</h4>
+                    
+                    <h5 class="text-center">Va rugam scrieti feedbackul dumneavoastra mai jos</h5>
+                    <h6 class="exp">Cum evaluezi experienta ta pe site-ul nostru?</h6>
+                    
+                    <form>
+                        <label class="radio-inline"><input type="radio" name="experience" value="bad">Dezamagitor</label>
+                        <label class="radio-inline"><input type="radio" name="experience" value="bad">Buna</label>
+                        <label class="radio-inline"><input type="radio" name="experience" value="bad">Foarte buna</label>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <label class="col-md-4">Full Name<br>
+                    <input type="text" id="text" required="" placeholder="Butnariu Iuliana"></label>
+
+                    <label class="col-md-4">Email<br>
+                        <input type="text" id="text" required="" placeholder="iulicaa299@gmail.com"></label>
+    
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <label class="col-md-8">Messaje<br>
+                                <textarea id="messaje" required="" placeholder="   Write your messaje here" cols="48" rows="6"></textarea></label>
+                         </div>
+                         <div class="row">
+                         <div class="col-md-2"></div>
+                         <button class="btn btn-primary">Submit</button>
+                         </div>
+                 </form>
         </body>    
        
-    
- 
 </html>

@@ -15,68 +15,151 @@ body{
     
 }
 
-.container form{
+.header{
+
+    min-height: 100vh;
     width: 100%;
-    text-align: center;
-    padding: 25px 20px;
+    
+  
 }
 
-.separator{
-    width: 1000px;
-    height: 4px;
-    background-color: blueviolet;
-    margin: 24px;
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
 }
-form h1{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 2.5em;
-    font-weight: bold;
-    letter-spacing: 1px;
+.nav-links{
+    flex: 1;
+    text-align: right;
+    transition: 1s;;
 }
-form .id{
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
     position: relative;
+
 }
-.id i{
-    position: relative;
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
 }
-form input{
+.nav-links ul li::after{
+    content: '';
+    width: 8%;
+    height: 2px;
+    background: blue ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
     width: 100%;
-    height: 50px;
-    margin: 4px 0;
-    background: rgb(210, 212, 247);
-    padding: 0 5px;
-    font-size: 20px;
+}
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.text-box {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.view {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.col2 {
+  flex-basis: 100%;
+}
+
+.col3 {
+  flex-basis: 100%;
+  margin: 0 auto;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.radio-inline{
     
+    margin: 0px 40px 20px 25px;
+    cursor: pointer;
 }
-form textarea{
+
+#text{
+   
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    border: none;
     width: 100%;
-    height: 80px;
-    margin: 4px 0;
-    padding: 5px 15px;
-    border-radius: 30px;
-    background: rgb(210, 212, 247);
-    font-size: 20px;
+
 }
+
 input,button{
     border: none;
     outline: none;
-    background-color: sandybrown;
+    background-color: rgb(210,212,247);
     border-radius: 30px;
     font-size: 1.1em;
 }
-input{
-    width: 100%;
-    background: rgb(210, 212, 247);
+
+textarea{
+    border: none;
+    outline: none;
+    background-color: rgb(210,212,247);
     border-radius: 30px;
-    color: rgb(187, 253, 253);
-    letter-spacing: 0.5px;
-    padding: 14px 64px;
+    font-size: 1.1em;
 }
-form button{
-    margin-top: 5px;
+
+ button{
+  width: 50%;
+   position: left;
+    margin-left: 8%;
     border: none;
     text-transform:initial;
-    color: aliceblue;
+    color: white;
         letter-spacing: 2px;
         padding: 14px 55px;
         font-size: 25px;

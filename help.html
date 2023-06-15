@@ -12,13 +12,12 @@
             </section>
             <section class="header">
                  <nav>
-               <a href="index.html"></a>
                <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="login.html">LOGIN</a></li>
-                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="login.php">LOGIN</a></li>
+                    <li><a href="registration.php">REGISTER</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="help.html">HELP</a></li>
 
@@ -50,32 +49,27 @@
                     <h5 class="text-center">Va rugam scrieti feedbackul dumneavoastra mai jos</h5>
                     <h6 class="exp">Cum evaluezi experienta ta pe site-ul nostru?</h6>
                     
-                    <form>
-                        <label class="radio-inline"><input type="radio" name="experience" value="bad">Dezamagitor</label>
-                        <label class="radio-inline"><input type="radio" name="experience" value="bad">Buna</label>
-                        <label class="radio-inline"><input type="radio" name="experience" value="bad">Foarte buna</label>
-                    
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-2"></div>
-                <label class="col-md-4">Full Name<br>
-                    <input type="text" id="text" required="" placeholder="Butnariu Iuliana"></label>
+            <div class="contact-title">
+                <h1>Va rugam scrieti feedbackul dumneavoastra mai jos</h1>
+                <h2>Cum evaluezi experienta ta pe site-ul nostru?</h2>
 
-                    <label class="col-md-4">Email<br>
-                        <input type="text" id="text" required="" placeholder="iulicaa299@gmail.com"></label>
-    
-                        </div>
-                        <div class="row">
-                            <div class="col-md-2"></div>
-                            <label class="col-md-8">Messaje<br>
-                                <textarea id="messaje" required="" placeholder="   Write your messaje here" cols="48" rows="6"></textarea></label>
-                         </div>
-                         <div class="row">
-                         <div class="col-md-2"></div>
-                         <button class="btn btn-primary">Submit</button>
-                         </div>
-                 </form>
+            </div>
+            <div class="contact-form">
+                <from id="contact-form" method="post" action="">
+<input name="name" type="text" class="form-control" placeholder="Numele tau" required>
+<br>
+<input name="email" type="email" class="form-control" placeholder="Emailul tau" required>
+<br>
+<textarea name="message" class="form-control" placeholder="Mesaj..." row="4" required>
+
+</textarea>
+<br>
+<input type="submit" class="form-control submit" value="Trimite mesaj">
+
+                </from>
+            </div>
         </body>    
        
 </html>

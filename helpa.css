@@ -120,52 +120,51 @@ h6 {
   font-weight: bold;
   margin-bottom: 10px;
 }
-.radio-inline{
-    
-    margin: 0px 40px 20px 25px;
-    cursor: pointer;
+.contact-title{
+
+  margin-left: 300px;
+  margin-top: 90px;
+  color: rgb(76, 76, 150);
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
 }
-
-#text{
-   
-    height: 40px;
-    border-radius: 10px;
-    padding-left: 20px;
-    font-size: 14px;
-    border: none;
-    width: 100%;
-
+.contact-title h1{
+  font-size: 32px;
+  line-height: 50px;
 }
-
-input,button{
-    border: none;
-    outline: none;
-    background-color: rgb(210,212,247);
-    border-radius: 30px;
-    font-size: 1.1em;
+.contact-title h2{
+  font-size: 16px;
+  
 }
+form{
+  margin-left: 300px;
 
-textarea{
-    border: none;
-    outline: none;
-    background-color: rgb(210,212,247);
-    border-radius: 30px;
-    font-size: 1.1em;
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
 }
-
- button{
-  width: 50%;
-   position: left;
-    margin-left: 8%;
-    border: none;
-    text-transform:initial;
-    color: white;
-        letter-spacing: 2px;
-        padding: 14px 55px;
-        font-size: 25px;
-        font-weight: 800;
-        background-image: linear-gradient(to right, #8b33c5, #15a0e1);
-        cursor: pointer;
-         transition: opacity 0.5s;
-
+.form-control{
+  width: 600px;
+  border:none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color:#3939d6;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+input{
+  height: 45px;
+}
+form .submit{
+  background: #504ac4;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+form .submit:hover{
+  background-color: #9a97e1;
+  cursor: pointer;
 }

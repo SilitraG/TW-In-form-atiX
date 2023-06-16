@@ -5,15 +5,16 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 	</head>
 <body>
-
+	<nav class="navbar navbar-default">
+		
+	</nav>
 	<div class="col-md-3"></div>
 	<div class="col-md-6 well">
-	<a href="index.html" class="btn btn-success">Inapoi</a>
-
+		<h3 class="text-primary">Cauta problema care te intereseaza</h3>
 		<hr style="border-top:1px dotted #ccc;"/>
 		<div class="col-md-1"></div>
 		<div class="col-md-10">
-			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#form_modal">Adauga Problema</button>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#form_modal">Add Content</button>
 			<br />
 			<br />
 			<form class="form-inline" method="POST" action="index.php">

@@ -3,13 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>Formular feedback</title>
-        <link rel="stylesheet" href="help.css" />
+        <link rel="stylesheet" href="helpa.css" />
 
     </head>
         <body>
-            <section class="side">
-                <img src="e.jpg" alt="">
-            </section>
+            
             <section class="header">
                  <nav>
                <div class="nav-links" id="navLinks">
@@ -19,7 +17,7 @@
                     <li><a href="login.php">LOGIN</a></li>
                     <li><a href="registration.php">REGISTER</a></li>
                     <li><a href="abouta.html">ABOUT</a></li>
-                    <li><a href="help.html">HELP</a></li>
+                    <li><a href="helpa.html">HELP</a></li>
 
                 </ul>
                </div>
@@ -36,39 +34,28 @@
                     <p>Raspuns:Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
                     <h2>Mai jos veti gasi un formular de feedback pentru a impartasi experienta pe site-ul nostru</h2>
                 </main>
-                </div>
+                
 
         <div class="view">
 
         <div class="container">
             <div class="row">
-                <div class="col2"></div>
-                <div class="col3">
-                    <h4 class="text-center">Spune-ne parerea ta!</h4>
-                    
-                    <h5 class="text-center">Va rugam scrieti feedbackul dumneavoastra mai jos</h5>
-                    <h6 class="exp">Cum evaluezi experienta ta pe site-ul nostru?</h6>
-                    
+               
                 </div>
             </div>
             <div class="contact-title">
-                <h1>Va rugam scrieti feedbackul dumneavoastra mai jos</h1>
-                <h2>Cum evaluezi experienta ta pe site-ul nostru?</h2>
-
+                <h1>Va rugam scrieti feedback ul dumneavoastra</h1>
+                <h2>Cum evaluezi experienta ta pe site ul nostru?</h2>
             </div>
             <div class="contact-form">
-                <from id="contact-form" method="post" action="">
-<input name="name" type="text" class="form-control" placeholder="Numele tau" required>
-<br>
-<input name="email" type="email" class="form-control" placeholder="Emailul tau" required>
-<br>
-<textarea name="message" class="form-control" placeholder="Mesaj..." row="4" required>
+                <form id="contact-form" method="post" action="contact-form.php">
+                    <input name="name" type="text" class="form-control" placeholder="Numele tau" required>
+                    <br>
+                    <input name="email" type="email" class="form-control" placeholder="Emailul tau" required><br>
+                    <textarea name="message" class="form-control" placeholder="Mesajul tau.." row="4" required></textarea><br>
+                    <input type="submit" class="form-control submit" value="Trimite mesajul">
 
-</textarea>
-<br>
-<input type="submit" class="form-control submit" value="Trimite mesaj">
-
-                </from>
+                </form>
             </div>
         </body>    
        

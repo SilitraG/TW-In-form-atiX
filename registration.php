@@ -46,7 +46,7 @@
                     <li><a href="login.php">LOGIN</a></li>
                     <li><a href="registration.php">REGISTER</a></li>
                     <li><a href="abouta.html">ABOUT</a></li>
-                    <li><a href="help.html">HELP</a></li>
+                    <li><a href="helpa.html">HELP</a></li>
 
                 </ul>
                </div>
